@@ -9,7 +9,8 @@
 The goal of dsci310.assign5 is to follow along the toy demo in
 [jennybc/regexcite](https://github.com/jennybc/regexcite). This package
 makes regular expressions more exciting. It provides convenience
-functions to make some common string manupulation tasks easier.
+functions to make some common string manipulation tasks easier. It also
+contains a simple addition function.
 
 ## Installation
 
@@ -21,7 +22,7 @@ You can install the development version of dsci310.assign5 from
 devtools::install_github("samnthorne/dsci-310-assign5")
 ```
 
-## Example
+## Example of str_split_one
 
 This is a basic example which shows you how to solve the common problem
 of splitting strings into character vectors:
@@ -49,4 +50,24 @@ str_split_one(x, pattern = ",", n = 2)
 y <- "192.168.0.1"
 str_split_one(y, pattern = stringr::fixed("."))
 #> [1] "192" "168" "0"   "1"
+```
+
+## Example of my_add
+
+This is a basic example which shows you how to simply add two numeric
+values using the `my_add()` function.
+
+``` r
+library(dsci310.assign5)
+
+my_add(1, 2)
+#> [1] 3
+```
+
+The second value in the `my_add()` function defaults to 10 for
+conveinence.
+
+``` r
+my_add(3)
+#> [1] 13
 ```
