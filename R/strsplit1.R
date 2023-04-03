@@ -2,10 +2,10 @@
 
 #' Split a string to vector
 #'
-#' @param x A character vector within one string
-#' @param split the delimiter of the character vector x
+#' @param x A character vector within one string.
+#' @param split the delimiter of the character vector x.
 #'
-#' @return A character vector
+#' @return A character vector.
 #' @export
 #'
 #' @examples

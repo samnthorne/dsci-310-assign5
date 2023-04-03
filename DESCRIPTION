@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Sam", "Thorne", , "sthorn02@student.ubc.ca", role = c("aut", "cre"))
 Description: Follows the regexcite R package building demo. "Convenience functions to make some common
-  tasks with string manipulation and regular expression easier"
+  tasks with string manipulation and regular expression easier".
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

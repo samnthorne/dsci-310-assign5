@@ -7,12 +7,12 @@
 strsplit1(x, split)
 }
 \arguments{
-\item{x}{A character vector within one string}
+\item{x}{A character vector within one string.}
 
-\item{split}{the delimiter of the character vector x}
+\item{split}{the delimiter of the character vector x.}
 }
 \value{
-A character vector
+A character vector.
 }
 \description{
 Split a string to vector
